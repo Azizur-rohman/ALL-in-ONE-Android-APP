@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <string name="hint" />
+    <string name="nev_open">Open</string>
+    <string name="nev_close">Close</string>
+    <string name="main">AZIZ</string>
+    <string name="clear">C</string>
+    <string name="backspace">⌫</string>
+    <string name="divide">÷</string>
+    <string name="sqrt">√</string>
+    <string name="square">x²</string>
+    <string name="posneg">±</string>
+    <string name="openBracket">(</string>
+    <string name="closeBracket">)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

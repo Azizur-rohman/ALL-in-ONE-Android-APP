@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homemenuId"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"
+            />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calculator"
+            android:title="Calculator"
+            />
+        <item
+            android:id="@+id/nav_unitconverter"
+            android:icon="@drawable/converting"
+            android:title="Unitconverter"
+            />
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/sharemenuId"
+                android:title="Game"
+                android:icon="@drawable/game"
+                />
+
+            <item
+                android:id="@+id/userinfomenuId"
+                android:title="My Details"
+                android:icon="@drawable/ic_person_black_24dp"
+                />
+            <item
+                android:id="@+id/exit"
+                android:title="Exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                />
+
+        </menu>
+    </item>
+
+</menu>

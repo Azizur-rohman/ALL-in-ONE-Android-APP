@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArActivity">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Square Metre"
+            android:textSize="12sp"
+            android:paddingLeft="14dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Number"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:layout_marginTop="150dp"
+            />
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="240dp">
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="SK To SM"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="SM To SK"
+                android:checked="false"/>
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:text="Convert"
+            android:layout_centerHorizontal="true"
+            android:onClick="SKSM"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="125dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Square Kliometre"
+            android:textSize="12sp"
+            android:paddingLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Number"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:layout_marginTop="150dp"
+
+            />
+        <TextView
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="240dp">
+            <RadioButton
+                android:id="@+id/r3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="SMile To SK"
+                android:checked="true"
+                android:textSize="12sp"/>
+            <RadioButton
+                android:id="@+id/r4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="SK To SMile"
+                android:checked="false"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:text="Convert"
+            android:layout_centerHorizontal="true"
+            android:onClick="MK"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="240dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Square Mile"
+            android:textSize="12sp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Number"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:layout_marginTop="150dp"
+            />
+        <TextView
+            android:id="@+id/view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="240dp">
+            <RadioButton
+                android:id="@+id/r5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="SMile To SM"
+                android:checked="true"
+                android:textSize="12sp"/>
+            <RadioButton
+                android:id="@+id/r6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="SM To SMile"
+                android:checked="false"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:text="Convert"
+            android:layout_centerHorizontal="true"
+            android:onClick="KMi"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
